@@ -1,4 +1,4 @@
-# 📊 Introduction to SIEM – Summary
+# 📊 Introduction to SIEM 
 
 ---
 
