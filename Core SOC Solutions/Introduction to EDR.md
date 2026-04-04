@@ -1,4 +1,4 @@
-# 🛡️ Endpoint Detection and Response (EDR) – Summary
+# 🛡️ Endpoint Detection and Response (EDR) 
 
 ---
 
