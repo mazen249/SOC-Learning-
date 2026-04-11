@@ -42,7 +42,7 @@ The requests were mainly:
 
 ## 🤖 User-Agent Analysis
 
-![User Agent](./screenshots/raw-logs4.png)
+![User Agent](../screenshots/raw-logs4.png)
 
 Using:
 index=main clientip=66.249.72.235 | stats count by useragent
