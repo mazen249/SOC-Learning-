@@ -23,6 +23,13 @@ To become a SOC Analyst (Tier 1) by building hands-on experience with SIEM tools
 
 ---
 
+## 🛡 Investigations
+| # | Investigation | Description |
+|---|---------------|-------------|
+| 1 | [Malicious Web Activity](investigations/01-malicious-web-activity/) | Multi-stage web attack analysis using Splunk |
+
+---
+
 ## 📚 Skills
 - Log Analysis
 - SPL (Search Processing Language)
