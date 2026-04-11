@@ -12,7 +12,7 @@ Suspicious activity detected from external IP targeting a web server.
 
 ## 📊 Total Requests
 
-![Total Requests](../screenshots/requests.png)
+![Total Requests](../screenshots/request.png)
 
 The IP generated 7876 requests, which is abnormally high and indicates automated activity.
 
