@@ -7,7 +7,7 @@ Analyzing web traffic logs using Splunk to identify suspicious or malicious acti
 
 ## 📊 Initial Log Exploration
 
-![Raw Logs](../screenshots/Screenshot 2026-04-11 085629.png)
+![Raw Logs](../screenshots/raw-logs1.png)
 
 Initial inspection of logs shows normal web traffic entries from multiple IP addresses.
 
@@ -15,7 +15,7 @@ Initial inspection of logs shows normal web traffic entries from multiple IP add
 
 ## 🌐 Top Source IPs
 
-![Top IPs](../screenshots/Screenshot 2026-04-11 085629.png)
+![Top IPs](../screenshots/raw-logs2.png)
 
 Using:
 index=main | stats count by clientip | sort - count
@@ -27,7 +27,7 @@ The highest IP generated the most events but this alone does not confirm malicio
 
 ## 🔍 Focused Analysis on Top IP
 
-![IP Paths](../screenshots/Screenshot 2026-04-11 183439.png)
+![IP Paths](../screenshots/raw-logs3.png)
 
 Using:
 index=main clientip=95.103.151.244 | stats count by uri_path | sort - count
@@ -42,7 +42,7 @@ The requests were mainly:
 
 ## 🤖 User-Agent Analysis
 
-![User Agent](./screenshots/Screenshot 2026-04-11 184635.png)
+![User Agent](./screenshots/raw-logs4.png)
 
 Using:
 index=main clientip=66.249.72.235 | stats count by useragent
@@ -56,7 +56,7 @@ Result:
 
 ## 🚨 Suspicious Activity Check
 
-![Suspicious Search](../screenshots/Screenshot 2026-04-11 184436.png)
+![Suspicious Search](../screenshots/raw-logs5.png)
 
 Using:
 index=main uri_path="*passwd*" OR uri_path="*cmd*" OR uri_path="*sleep*" OR uri_path="*select*"
