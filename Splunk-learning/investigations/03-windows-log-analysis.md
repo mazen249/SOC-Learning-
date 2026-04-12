@@ -7,7 +7,7 @@ Analyzing Windows Security Logs using Event Viewer to detect potential brute for
 
 ## 📊 Failed Login Attempts (Event ID 4625)
 
-![Failed Logins](../screenshots/failed-logins.png)
+![Failed Logins](../screenshots/failed-logon.png)
 
 We filtered Windows Security Logs for Event ID 4625, which represents failed login attempts.
 
