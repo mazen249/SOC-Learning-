@@ -22,7 +22,7 @@ We filtered Windows Security Logs for Event ID 4625, which represents failed log
 
 ## 🔐 Successful Logins (Event ID 4624)
 
-![Successful Logins](../screenshots/success-logins.png)
+![Successful Logins](../screenshots/logon.png)
 
 We analyzed Event ID 4624, which represents successful logins.
 
