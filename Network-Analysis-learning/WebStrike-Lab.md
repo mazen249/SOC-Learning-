@@ -20,7 +20,7 @@ I started by filtering HTTP traffic to focus on web-based communication:
 http
 
 📸 Screenshot:  
-![HTTP Filter](/imge/http.png)
+![HTTP Filter](imge/http.png)
 
 ---
 
@@ -32,7 +32,7 @@ I identified a suspicious IP address from the traffic and investigated it using 
 - Location: Tianjin, China
 
 📸 Screenshot:  
-![IP Lookup](/imge/ip.png)
+![IP Lookup](imge/ip.png)
 
 ---
 
@@ -43,7 +43,7 @@ Next, I inspected the HTTP headers to identify the User-Agent used in the commun
 - User-Agent: Mozilla/5.0 (Linux x86_64, Firefox)
 
 📸 Screenshot:  
-![User Agent](/imge/user.png)
+![User Agent](imge/user.png)
 
 ---
 
@@ -56,7 +56,7 @@ http.request.method == "POST"
 This revealed suspicious upload activity.
 
 📸 Screenshot:  
-![POST Request](/imge/post.png)
+![POST Request](imge/post.png)
 
 ---
 
@@ -67,8 +67,8 @@ I found that the attacker uploaded a suspicious file:
 - File name: image.jpg.php
 - This indicates a possible web shell upload
 
-📸 Screenshot:  
-![Malicious Upload](/imge/php.png)
+📸 Screenshot: 
+![Malicious Upload](imge/php.png)
 
 ---
 
@@ -79,7 +79,7 @@ The attacker attempted to access the uploaded file:
 /reviews/uploads/image.jpg.php
 
 📸 Screenshot:  
-![File Access](/imge/access.png)
+![File Access](imge/access.png)
 
 ---
 
@@ -90,7 +90,7 @@ The server stores uploaded files in the following directory:
 /reviews/uploads/
 
 📸 Screenshot:  
-![Upload Directory](/imge/upload.png)
+![Upload Directory](imge/upload.png)
 
 ---
 
