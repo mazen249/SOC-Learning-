@@ -21,7 +21,7 @@ Welcome to my professional repository. This space documents my journey in Cybers
 * [The Planet's Prestige] - *Deep dive into header analysis and spoofing.* [View Lab](./Labs/Phishing-Investigation/The-Planets-Prestige.md)
 
 #### 🔍 SIEM & Logging (Splunk)
-* [Splunk Basics] - *Querying logs to identify suspicious login attempts.* [View Lab](./Labs/SIEM-Splunk/01-web-attack-analysis.md)
+* [Splunk Basics] - *Querying logs to identify suspicious login attempts.* [View Lab](./Labs/SEIM-Splunk/02-web-traffic-analysis-clean.md)
 
 ---
 
