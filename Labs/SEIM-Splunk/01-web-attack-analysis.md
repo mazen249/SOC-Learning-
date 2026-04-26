@@ -12,7 +12,7 @@ Suspicious activity detected from external IP targeting a web server.
 
 ## 📊 Total Requests
 
-![Total Requests](./screenshots/request.png)
+![Total Requests](./Screenshots/request.png)
 
 The IP generated 7876 requests, which is abnormally high and indicates automated activity.
 
@@ -20,7 +20,7 @@ The IP generated 7876 requests, which is abnormally high and indicates automated
 
 ## 📋 Raw Log Analysis
 
-![Raw Logs](./screenshots/raw-logs.png)
+![Raw Logs](./Screenshots/raw-logs.png)
 
 Initial log inspection shows repeated requests from the same IP interacting with multiple endpoints using GET and POST methods.
 
@@ -28,7 +28,7 @@ Initial log inspection shows repeated requests from the same IP interacting with
 
 ## 🔍 Suspicious Paths Analysis
 
-![Suspicious Paths](./screenshots/paths.png)
+![Suspicious Paths](./Screenshots/paths.png)
 
 Multiple malicious endpoints were identified:
 
@@ -44,7 +44,7 @@ This confirms active exploitation attempts.
 
 ## 📡 Response Status Analysis
 
-![Status Codes](./screenshots/status.png)
+![Status Codes](./Screenshots/status.png)
 
 Observed HTTP responses:
 
