@@ -7,7 +7,7 @@ Analyzing Windows Security Logs using Event Viewer to detect potential brute for
 
 ## 📊 Failed Login Attempts (Event ID 4625)
 
-![Failed Logins](../screenshots/logon.png)
+![Failed Logins](./Screenshots/logon.png)
 
 We filtered Windows Security Logs for Event ID 4625, which represents failed login attempts.
 
@@ -22,7 +22,7 @@ We filtered Windows Security Logs for Event ID 4625, which represents failed log
 
 ## 🔐 Successful Logins (Event ID 4624)
 
-![Successful Logins](../screenshots/logon.png)
+![Successful Logins](./Screenshots/logon.png)
 
 We analyzed Event ID 4624, which represents successful logins.
 
@@ -34,7 +34,7 @@ We analyzed Event ID 4624, which represents successful logins.
 
 ## 🚪 Logoff Activity (Event ID 4634)
 
-![Logoff](../screenshots/logoff.png)
+![Logoff](./Screenshots/logoff.png)
 
 Event ID 4634 indicates user logoff.
 
@@ -46,7 +46,7 @@ Event ID 4634 indicates user logoff.
 
 ## 🔑 Privileged Logon (Event ID 4672)
 
-![Privileges](../screenshots/privileges.png)
+![Privileges](./Screenshots/privileges.png)
 
 Event ID 4672 indicates special privileges assigned during logon.
 
