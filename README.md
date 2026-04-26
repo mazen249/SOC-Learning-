@@ -18,7 +18,7 @@ Welcome to my professional repository. This space documents my journey in Cybers
 * [Malware Traffic Analysis] - *Identifying C2 communication patterns.* [View Lab](./Labs/Network-Analysis/Malware-Traffic-Analysis-Report.md)
 
 #### 📧 Phishing Forensics
-* [The Planet's Prestige] - *Deep dive into header analysis and spoofing.* [View Lab](.Labs/Network-Analysis/Malware-Traffic-Analysis.md)
+* [The Planet's Prestige] - *Deep dive into header analysis and spoofing.* [View Lab](./Labs/Network-Analysis/Malware-Traffic-Analysis.md)
 
 #### 🔍 SIEM & Logging (Splunk)
 * [Splunk Basics] - *Querying logs to identify suspicious login attempts.* [View Lab](./Labs/SEIM-Splunk/02-web-traffic-analysis-clean.md)
