@@ -7,7 +7,7 @@ A simulated brute force attack was performed against a Windows user account to a
 
 ## 📊 Failed Login Attempts (Event ID 4625)
 
-![Failed Logins](/screenshots/failed.png)
+![Failed Logins](./Screenshots/failed.png)
 
 Multiple failed login attempts were observed targeting the user account hacker.
 
@@ -19,7 +19,7 @@ Multiple failed login attempts were observed targeting the user account hacker.
 
 ## 🔒 Account Lockout (Event ID 4740)
 
-![Account Lockout](../screenshots/lockout.png)
+![Account Lockout](./Screenshots/lockout.png)
 
 The user account hacker was locked out after multiple failed login attempts.
 
