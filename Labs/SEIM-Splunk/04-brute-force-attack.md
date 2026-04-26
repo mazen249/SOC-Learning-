@@ -7,7 +7,7 @@ A simulated brute force attack was performed against a Windows user account to a
 
 ## 📊 Failed Login Attempts (Event ID 4625)
 
-![Failed Logins](../screenshots/failed.png)
+![Failed Logins](/screenshots/failed.png)
 
 Multiple failed login attempts were observed targeting the user account hacker.
 
