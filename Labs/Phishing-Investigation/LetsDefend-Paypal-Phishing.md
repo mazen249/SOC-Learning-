@@ -24,7 +24,7 @@ In this lab, I analyzed a suspicious email that claimed to be from PayPal. The g
 I opened the email provided in the lab. The message claimed to be from PayPal and asked the user to confirm information.
 
 📸 Screenshot:  
-![Email View](./imge/pypal.png)
+![Email View](./imgee/pypal.png)
 
 ➡️ Observation:  
 The email design looks like PayPal, but it appears suspicious and not fully legitimate.
@@ -35,7 +35,7 @@ The email design looks like PayPal, but it appears suspicious and not fully legi
 I opened the email file using Notepad++ to examine the full headers.
 
 📸 Screenshot:  
-![Headers](./imge/p1.png)
+![Headers](./imgee/p1.png)
 
 ---
 
@@ -43,7 +43,7 @@ I opened the email file using Notepad++ to examine the full headers.
 I identified the Return-Path, which was different from the sender's address.
 
 📸 Screenshot:  
-![Return Path](./imge/p2.png)
+![Return Path](./imgee/p2.png)
 
 ➡️ Finding:  
 This mismatch is a strong indicator of phishing.
@@ -54,7 +54,7 @@ This mismatch is a strong indicator of phishing.
 I extracted the domain from the email headers for further analysis.
 
 📸 Screenshot:  
-![Domain](./imge/p3.png)
+![Domain](./imgee/p3.png)
 
 ---
 
@@ -62,7 +62,7 @@ I extracted the domain from the email headers for further analysis.
 I searched the domain/file using VirusTotal and obtained the SHA256 hash.
 
 📸 Screenshot:  
-![VirusTotal](./imge/vi.png)
+![VirusTotal](./imgee/vi.png)
 
 ➡️ Finding:  
 The file/domain appeared clean, but this does not guarantee safety.
