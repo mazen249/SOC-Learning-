@@ -1,31 +1,75 @@
-# 🛡 SOC Operations & Investigation Hub
 
-Welcome to my professional repository. This space documents my journey in Cybersecurity, focusing on SOC Operations, Threat Hunting, and Incident Response.
+<h1 align="center">🛡 SOC Learning Portfolio</h1>
+<h3 align="center">Hands-on Labs & Security Investigations</h3>
 
----
-
-### 🚀 Quick Access: Investigation Playbooks
-*My standard methodologies for analyzing threats:*
-* 📧 [Email/Phishing Analysis](./Methodologies/Phishing-Analysis.md)
-* 🌐 [Network Traffic Forensics](./Methodologies/Network-Forensics.md)
-
----
-
-### 🧪 Practical Labs (Project Showcase)
-
-#### 🌐 Network Analysis (Wireshark)
-* [WebStrike Investigation] - *Analyzing an HTTP intrusion and web shell upload.* [View Lab](./Labs/Network-Analysis/WebStrike-Lab.md)
-* [Malware Traffic Analysis] - *Identifying C2 communication patterns.* [View Lab](./Labs/Network-Analysis/Malware-Traffic-Analysis-Report.md)
-
-#### 📧 Phishing Forensics
-* [The Planet's Prestige] - *Deep dive into header analysis and spoofing.* [View Lab](./Labs/Network-Analysis/Malware-Traffic-Analysis.md)
-
-#### 🔍 SIEM & Logging (Splunk)
-* [Splunk Basics] - *Querying logs to identify suspicious login attempts.* [View Lab](./Labs/SEIM-Splunk/02-web-traffic-analysis-clean.md)
+<p align="center">
+<img src="https://img.shields.io/badge/-SOC%20Operations-0A66C2?&style=for-the-badge" />
+<img src="https://img.shields.io/badge/-Threat%20Detection-FF0000?&style=for-the-badge" />
+<img src="https://img.shields.io/badge/-Incident%20Response-000000?&style=for-the-badge" />
+</p>
 
 ---
 
-### 🛠 Technical Skills & Tools
-- Analysis: Wireshark, Tshark, Network Miner.
-- SIEM: Splunk, ELK.
-- Tools: VirusTotal, MXToolbox, CyberChef, PhishTool.
+## 📌 Overview
+
+This repository contains my practical work in SOC operations, including real-world labs focused on:
+
+- Network Traffic Analysis  
+- Phishing Investigations  
+- Log Analysis (SIEM)  
+
+Each lab includes step-by-step analysis, findings, and conclusions.
+
+---
+
+## 🚀 Labs
+
+### 🌐 Network Analysis
+- 🔍 WebStrike Lab  
+- 🧪 Malware Traffic Analysis  
+
+📂 [Labs/Network-Analysis/](./Labs/Network-Analysis/)
+
+---
+
+### 📧 Phishing Investigation
+- ✉️ PayPal Phishing Analysis  
+
+📂 [Labs/Phishing-Investigation/](./Labs/Phishing-Investigation/)
+
+---
+
+### 📊 SIEM (Splunk)
+- 🔐 Brute Force Detection  
+- 📈 Log Analysis  
+
+📂 [Labs/SIEM-Splunk/](./Labs/SIEM-Splunk/)
+
+---
+
+## 🔍 Methodologies
+
+- 📧 Phishing Analysis  
+- 🌐 Network Forensics
+  
+📂 [Methodologies/](./Methodologies/)
+
+---
+
+## 🛠 Tools Used
+
+<p>
+<img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
+<img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
+<img src="https://img.shields.io/badge/-VirusTotal-394EFF?&style=for-the-badge" />
+<img src="https://img.shields.io/badge/-CyberChef-FB8C00?&style=for-the-badge" />
+</p>
+
+---
+
+## 🎯 Focus
+
+Building strong practical skills in:
+- Threat Detection  
+- Incident Investigation  
+- Security Monitoring
