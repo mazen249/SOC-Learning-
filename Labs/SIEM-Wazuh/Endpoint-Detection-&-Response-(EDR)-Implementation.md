@@ -14,11 +14,18 @@ The objective was to simulate a real SOC environment by deploying a SIEM solutio
 - Deployed Wazuh using Docker (PowerShell)  
 - Successfully initialized Wazuh services  
 
+
 📸 Docker :
+
+
 ![Setup](./images/s1.png)
 
+
+
 📸 Wazuh Deployment:
+
 ![Deployment](./images/s2.png)
+
 ![Deployment](./images/s3.png)
 
 ---
@@ -27,15 +34,25 @@ The objective was to simulate a real SOC environment by deploying a SIEM solutio
 
 - Installed Wazuh agent on Kali Linux  
 - Configured agent to connect to Wazuh server  
-- Successfully registered the endpoint  
+- Successfully registered the endpoint
+
+
+  
 
 📸 Agent Configuration (Kali):
+
 ![Kali Agent](./images/s4.png)
 
+
+
 📸 Agent Added to Wazuh:
+
 ![Agent Added](./images/s5.png)
 
+
+
 📸 Final Agent Registration:
+
 ![Agent Registered](./images/s7.png)
 
 ---
