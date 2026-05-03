@@ -47,6 +47,16 @@ Each lab includes step-by-step analysis, findings, and conclusions.
 
 ---
 
+### 🛡 SIEM (Wazuh + Sysmon + SOAR)
+
+- ⚡ SOC Automation & Threat Detection Lab  
+- 🔍 Mimikatz Detection (Defense Evasion Bypass)  
+- 🤖 Shuffle SOAR Integration  
+
+📂 [Labs/SIEM-Wazuh/](./Labs/SIEM-Wazuh/)
+
+---
+
 ## 🔍 Methodologies
 
 - 📧 Phishing Analysis  
@@ -74,6 +84,18 @@ Each lab includes step-by-step analysis, findings, and conclusions.
 <a href="https://gchq.github.io/CyberChef/" target="_blank">
 <img src="https://img.shields.io/badge/-CyberChef-FB8C00?&style=for-the-badge" />
 </a>
+
+<a href="https://wazuh.com/" target="_blank">
+<img src="https://img.shields.io/badge/-Wazuh-005571?&style=for-the-badge" />
+</a>
+
+<a href="https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon" target="_blank">
+<img src="https://img.shields.io/badge/-Sysmon-0078D6?&style=for-the-badge" />
+</a>
+
+<a href="https://shuffler.io/" target="_blank">
+<img src="https://img.shields.io/badge/-Shuffle%20SOAR-FF6B00?&style=for-the-badge" />
+</a>
 </p>
 
 ---
@@ -81,6 +103,8 @@ Each lab includes step-by-step analysis, findings, and conclusions.
 ## 🎯 Focus
 
 Building strong practical skills in:
+
 - Threat Detection  
 - Incident Investigation  
-- Security Monitoring
+- Security Monitoring  
+- SOC Automation (SOAR)
