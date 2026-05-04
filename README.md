@@ -1,4 +1,3 @@
-
 <h1 align="center">🛡 SOC Learning Portfolio</h1>
 <h3 align="center">Hands-on Labs & Security Investigations</h3>
 
@@ -6,6 +5,7 @@
 <img src="https://img.shields.io/badge/-SOC%20Operations-0A66C2?&style=for-the-badge" />
 <img src="https://img.shields.io/badge/-Threat%20Detection-FF0000?&style=for-the-badge" />
 <img src="https://img.shields.io/badge/-Incident%20Response-000000?&style=for-the-badge" />
+<img src="https://img.shields.io/badge/-AI%20Automation-FFD700?&style=for-the-badge" />
 </p>
 
 ---
