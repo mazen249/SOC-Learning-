@@ -12,56 +12,47 @@
 
 ## 📌 Overview
 
-This repository contains my practical work in SOC operations, including real-world labs focused on:
+labs focused on Detection Engineering, Incident Response, and Threat Analysis. My investigations follow industry-standard frameworks such as the Cyber Kill Chain and MITRE ATT&CK to ensure comprehensive analysis.
 
-- Network Traffic Analysis  
-- Phishing Investigations  
-- Log Analysis (SIEM)  
+Each lab includes:
 
-Each lab includes step-by-step analysis, findings, and conclusions.
+ - Step-by-step analysis of real-world attack scenarios.
 
----
+ - Technical findings derived from log and traffic examination.
 
-## 🚀 Labs
-
-### 🌐 Network Analysis
-- 🔍 WebStrike Lab  
-- 🧪 Malware Traffic Analysis  
-
-📂 [Labs/Network-Analysis/](./Labs/Network-Analysis/)
+ - Remediation conclusions to mitigate future security risk
 
 ---
 
-### 📧 Phishing Investigation
-- ✉️ PayPal Phishing Analysis  
 
-📂 [Labs/Phishing-Investigation/](./Labs/Phishing-Investigation/)
+## 🚀 Projects Portfolio (The 14 Strategic Labs)
 
----
-
-### 📊 SIEM (Splunk)
-- 🔐 Brute Force Detection  
-- 📈 Log Analysis  
-
-📂 [Labs/SIEM-Splunk/](./Labs/SIEM-Splunk/)
-
----
-
-### 🛡 SIEM (Wazuh + Sysmon + SOAR)
-
-- ⚡ SOC Automation & Threat Detection Lab  
-- 🔍 Mimikatz Detection (Defense Evasion Bypass)  
-- 🤖 Shuffle SOAR Integration  
-
-📂 [Labs/SIEM-Wazuh/](./Labs/SIEM-Wazuh/)
+| # | Project Name | The "Magic" Description (Professional Skills Acquired) | Status & Link |
+| :--- | :--- | :--- | :--- |
+| **01** | **📊 SIEM Log Monitoring** | Built Splunk SIEM lab to ingest and analyze Sysmon/Windows logs; created custom detection rules for brute force and PowerShell-based attacks. | [📂 View](./Labs/SIEM-Splunk/) |
+| **02** | **📧 Simulated Phishing IR** | Simulated phishing attack in lab and performed full IR process including log review, malware identification, and executive-level reporting. | [📂 View](./Labs/Phishing-Investigation/) |
+| **03** | **🌐 IDS & Packet Analysis** | Deployed Suricata/Snort IDS to monitor test network; generated attack traffic and tuned rules to reduce false positives and detect SQL injection attempts. | [📂 View](./Labs/Network-Analysis/) |
+| **04** | **☁️ Cloud Monitoring** | Configured AWS CloudTrail/GuardDuty to detect and alert on suspicious IAM events including unauthorized access and S3 misconfigurations. | [⏳ Planning](#) |
+| **05** | **🛡️ Endpoint Monitoring** | Ingested Sysmon logs into Wazuh and developed custom alert rules to detect credential dumping and persistence tactics (e.g., Mimikatz). | [📂 View](./Labs/SIEM-Wazuh/) |
+| **06** | **🎯 Threat Hunting** | Performed threat hunt on Zeek and Windows log dataset; identified lateral movement and brute-force login indicators using SPL queries. | [⏳ Planning](#) |
+| **07** | **🤖 SOC Automation** | Orchestrated a SOAR workflow using **Docker** to integrate **Wazuh & Shuffle**; developed scripts to enrich IOCs via VirusTotal API. | [📂 View](./Labs/SIEM-Wazuh/) |
+| **08** | **🍯 Honeypot Lab** | Deployed SSH honeypot in cloud VM; captured and analyzed 5,000+ attacker attempts including common TTPs and password combos. | [⏳ Planning](#) |
+| **09** | **📂 Threat Intel Research** | Compiled threat report on APT campaigns with enriched IOCs and MITRE TTP mapping; integrated with open-source MISP platform. | [⏳ Planning](#) |
+| **10** | **📦 Malware Analysis** | Analyzed phishing email with malicious doc attachment; performed sandbox detonation and extracted PowerShell-based downloader behavior. | [⏳ Planning](#) |
+| **11** | **🔍 WebStrike Lab** | Performed deep packet analysis of web-based attacks to identify Command and Control (C2) communication patterns. | [📂 View](./Labs/Network-Analysis/) |
+| **12** | **🧪 Malware Traffic Analysis** | Investigated malicious network traffic to identify callback domains and extracted indicators of compromise (IOCs) from PCAP files. | [📂 View](./Labs/Network-Analysis/) |
+| **13** | **🔐 Brute Force Investigation** | Analyzed Windows security event logs to detect and mitigate automated login attempts and credential stuffing attacks. | [📂 View](./Labs/SIEM-Splunk/) |
+| **14** | **📥 PayPal Phishing Analysis** | Conducted real-world email header forensics and credential harvesting investigation to document adversary TTPs. | [📂 View](./Labs/Phishing-Investigation/) |
 
 ---
+
 
 ## 🔍 Methodologies
 
-- 📧 Phishing Analysis  
-- 🌐 Network Forensics
-  
+- **Phishing Analysis:** Email forensics and sandbox detonation.
+- **Network Forensics:** Packet analysis and IDS rule tuning.
+- **Threat Hunting:** Anomaly detection using SPL/KQL and ATT&CK mapping.
+
 📂 [Methodologies/](./Methodologies/)
 
 ---
