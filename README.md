@@ -40,7 +40,7 @@ Each lab includes:
 | **09** | **📂 Threat Intel Research** | Compiled threat report on APT campaigns with enriched IOCs and MITRE TTP mapping; integrated with open-source MISP platform. | [⏳ Planning](#) |
 | **10** | **📦 Malware Analysis** | Analyzed phishing email with malicious doc attachment; performed sandbox detonation and extracted PowerShell-based downloader behavior. | [⏳ Planning](#) |
 | **11** | **🔍 WebStrike Lab** | Performed deep packet analysis of web-based attacks to identify Command and Control (C2) communication patterns. | [📂 View](./Labs/Network-Analysis/) |
-| **12** | **🧪 Malware Traffic Analysis** | Investigated malicious network traffic to identify callback domains and extracted indicators of compromise (IOCs) from PCAP files. | [📂 View](./Labs/Network-Analysis/) |
+| **12** | **🧪 Malware Traffic Analysis** | Investigated malicious network traffic to identify callback domains and extracted indicators of compromise (IOCs) from PCAP files. | [📂 View](Labs/Network-Analysis/Malware-Traffic-Analysis.md) |
 | **13** | **🔐 Brute Force Investigation** | Analyzed Windows security event logs to detect and mitigate automated login attempts and credential stuffing attacks. | [📂 View](Labs/SEIM-Splunk/Screenshots/lockout.png) |
 | **14** | **📥 PayPal Phishing Analysis** | Conducted real-world email header forensics and credential harvesting investigation to document adversary TTPs. | [📂 View](./Labs/Phishing-Investigation/) |
 
