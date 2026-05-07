@@ -35,7 +35,7 @@ Each lab includes:
 | **04** | **☁️ Cloud Monitoring** | Configured AWS CloudTrail/GuardDuty to detect and alert on suspicious IAM events including unauthorized access and S3 misconfigurations. | [⏳ Planning](#) |
 | **05** | **🛡️ Endpoint Monitoring** | Ingested Sysmon logs into Wazuh and developed custom alert rules to detect credential dumping and persistence tactics (e.g., Mimikatz). | [📂 View](./Labs/SIEM-Wazuh/) |
 | **06** | **🎯 Threat Hunting** | Performed threat hunt on Zeek and Windows log dataset; identified lateral movement and brute-force login indicators using SPL queries. | [⏳ Planning](#) |
-| **07** | **🤖 SOC Automation** | Orchestrated a SOAR workflow using **Docker** to integrate **Wazuh & Shuffle**; developed scripts to enrich IOCs via VirusTotal API. | [📂 View](./Labs/SIEM-Wazuh/) |
+| **07** | **🤖 SOC Automation** | Orchestrated a SOAR workflow using **Docker** to integrate **Wazuh & Shuffle**; developed scripts to enrich IOCs via VirusTotal API. | [📂 View](Labs/SIEM-Wazuh/Endpoint-Detection-&-Response-(EDR)-Implementation.md) |
 | **08** | **🍯 Honeypot Lab** | Deployed SSH honeypot in cloud VM; captured and analyzed 5,000+ attacker attempts including common TTPs and password combos. | [⏳ Planning](#) |
 | **09** | **📂 Threat Intel Research** | Compiled threat report on APT campaigns with enriched IOCs and MITRE TTP mapping; integrated with open-source MISP platform. | [⏳ Planning](#) |
 | **10** | **📦 Malware Analysis** | Analyzed phishing email with malicious doc attachment; performed sandbox detonation and extracted PowerShell-based downloader behavior. | [⏳ Planning](#) |
