@@ -87,6 +87,21 @@ Each lab includes:
 <a href="https://shuffler.io/" target="_blank">
 <img src="https://img.shields.io/badge/-Shuffle%20SOAR-FF6B00?&style=for-the-badge" />
 </a>
+<a href="https://limacharlie.io/" target="_blank">
+<img src="https://img.shields.io/badge/-LimaCharlie-34495E?&style=for-the-badge&logo=LimaCharlie&logoColor=white" />
+</a>
+
+<a href="https://www.tines.com/" target="_blank">
+<img src="https://img.shields.io/badge/-Tines-FE6B35?&style=for-the-badge&logo=Tines&logoColor=white" />
+</a>
+
+<a href="https://slack.com/" target="_blank">
+<img src="https://img.shields.io/badge/-Slack-4A154B?&style=for-the-badge&logo=Slack&logoColor=white" />
+</a>
+
+<a href="https://www.docker.com/" target="_blank">
+<img src="https://img.shields.io/badge/-Docker-2496ED?&style=for-the-badge&logo=Docker&logoColor=white" />
+</a>
 </p>
 
 ---
